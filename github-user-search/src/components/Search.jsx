@@ -71,19 +71,22 @@ const Search = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {results.map((user) => (
                         <div key={user.id} className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition flex flex-col items-center">
-                            <img src={user.avatar_url} alt={user.login} className="w-20 h-20 rounded-full mb-3" />
-                            <h3 className="font-bold text-lg">{user.login}</h3>
-                            <p className="text-gray-500 text-sm mb-4">{user.location || "Location hidden"}</p>
-                            <a 
-                                href={user.html_url} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="text-blue-600 font-medium hover:underline"
-                            >
-                                View Profile
-                            </a>
-                        </div>
-                    ))}
+                            <img src={user.avatar_url} alt={user.login} className="w-20 h-20 rounded-full" />
+    <h2 className="text-xl font-bold mt-2">{user.login}</h2>
+    
+    <p className="text-sm text-gray-600">Location: {user.location || 'Not specified'}</p>
+    <p className="text-sm text-gray-600">Public Repos: {user.public_repos || 'N/A'}</p>
+    
+    <a 
+        href={user.html_url} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-blue-500 mt-2 block"
+    >
+        View Profile
+    </a>
+</div>
+))}
                 </div>
             </div>
         </div>
