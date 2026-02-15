@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=500"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken cooked in a smooth buttery & creamy tomato gravy.",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=500"
+  },
+  {
+    "id": 3,
+    "title": "Fresh Greek Salad",
+    "summary": "A refreshing mix of cucumbers, tomatoes, olives, and feta cheese.",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=500"
+  },
+  {
+    "id": 4,
+    "title": "Beef Stir Fry",
+    "summary": "Quick and healthy beef strips with colorful bell peppers and soy sauce.",
+    "image": "https://images.unsplash.com/photo-1512058560550-42749359a767?q=80&w=500"
+  }
+]
